@@ -1,0 +1,22 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmik78/Defender-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "mrmik78",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrmik78/Defender-game/issues"
+  },
+  "homepage": "https://github.com/mrmik78/Defender-game#readme"
+}
