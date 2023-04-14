@@ -4,7 +4,9 @@
   "description": "\"Browser based game\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/mrmik78/Defender-game/issues"
   },
-  "homepage": "https://github.com/mrmik78/Defender-game#readme"
+  "homepage": "https://github.com/mrmik78/Defender-game#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1"
+  }
 }
